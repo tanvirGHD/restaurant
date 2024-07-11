@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*--font-family: "Work Sans", sans-serif;*/
+#hero{
+    height: 909px;
+    background-image: url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#hero .sub-hero{
+    width: 1012px;
+    margin: 0 auto;
+}
+#hero .sub-hero .sub-title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans; 
+    font-size: 23px;
+    font-weight: 400px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 8px;
+}
+#hero .sub-hero .title{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 60px;
+font-weight: 400;
+line-height: 80px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 20px;
+
+}
+#hero .sub-hero .content{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin: 30px;
+}
+.btn{
+    padding: 14px 22px 14px 22px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    border: none;
+    background: rgb(105, 219, 24);
+}
+.btn-container{
+    text-align: center;
+    
+}
+#card-box{
+    width: 283px;
+    margin: 100px  auto;
+
+}
+#card-box .subtitles{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 5%;
+    text-align: center;
+    opacity: 0.6;
+}
+#card-box .titles{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+.card-container{
+    margin-top: 32px;
+}
+.card{
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+    g
+    
+
+}
+
+ .card  .image-box{
+    width:283px;
+ }
+ .card  .image-box img{
+    width: 100%;
+ }
+
